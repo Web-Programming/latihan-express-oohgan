@@ -1,0 +1,21 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.myform {
+  gap: 20px;
+  padding: 5px;
+}
+
+button {
+  padding: 20px 60px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
