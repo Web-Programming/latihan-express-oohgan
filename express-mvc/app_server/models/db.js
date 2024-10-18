@@ -1,5 +1,7 @@
+require('./mahasiswa');
+ 
 const mongoose = require("mongoose");
-const dbURI = "mongodb://localhost:27017/pawii";
+const dbURI = "mongodb+srv://paw2:si@paw2.iendmj6.mongodb.net/PAWII-SI?retryWrites=true&w=majority&appName=paw2";
 
 mongoose.connect(dbURI, {
   // useNewUrlParser: true
