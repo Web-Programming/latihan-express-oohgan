@@ -3,8 +3,8 @@ const {Schema} = mongoose;
 
 const mahasiswaSchema = new Schema({
     nama: String,
-    npm: {  type: String, required: true},
-    email: { type: String, required: true},
+    npm: {  type: String, require: true},
+    email: { type: String, require: true},
     tanggal_lahir: Date,
     aktif: Boolean
 });
